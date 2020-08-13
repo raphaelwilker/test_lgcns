@@ -1,0 +1,13 @@
+.canvas{
+	background-color: #fff;
+}
+
+.myCube{
+	
+	height: 260px !important;
+    width: 300px !important;
+    background-color: #d80546;
+    margin-top: 25%;
+    margin-left: 20%;
+
+}

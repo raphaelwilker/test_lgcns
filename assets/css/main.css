@@ -1,0 +1,245 @@
+/* A alteração de qualquer linha neste arquivo invalidará automaticamente o teste */
+
+* {
+    outline: none;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "courier new";
+    font-size: 1em;
+    line-height: 1em;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+a {
+    color: #d80546;
+}
+
+body > * {
+   /* padding: 40px 80px;*/
+}
+
+body > header {
+    padding: 20px;
+}
+
+header {
+    background-color: #F1EFED;
+    font-family: "arial";
+    color: #C2B9B4;
+}
+
+header nav {
+    position: relative;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+header nav a {
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: "courier new";
+}
+
+main {
+    display: block;
+}
+
+main > p {
+    width: 200px;
+}
+
+main > * + * {
+    margin-top: 40px;
+}
+
+main section {
+    max-width: 1000px;
+    width: 90%;
+    margin: 40px auto 20px auto;
+}
+
+ol, ul {
+    margin: 0 0 12px 0;
+}
+
+button {
+    display: block;
+    margin: auto;
+    min-width: 116px;
+    vertical-align: middle;
+    min-height: 40px;
+    background-color: #d80546;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 10px solid #922E2E;
+    border: 2px solid #731A1C;
+    font-family: "courier new";
+}
+
+button:hover {
+    background-color: #E62266;
+}
+
+button.disabled{
+    opacity: 0.6;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;   
+    font-weight: normal;
+}
+
+nav {
+    text-align: center;
+}
+
+a.nav {
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+a.nav span {
+    font-size: 30px;
+    line-height: 1.0;
+}
+
+section > h1, 
+section > h2, 
+section > h3, 
+section > h4, 
+section > h5, 
+section > h6 {
+    margin: 12px 0;
+}
+
+form {
+    text-align: center;
+}
+
+header:before,
+header:after,
+ol:before,
+ol:after,
+.tests:before,
+.tests:after,
+.item:before,
+.item:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.item,
+button,
+.tests.css .items > div {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tests {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #F1EFED;
+}
+
+.tests .item {
+    display: none;
+    width: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.tests .item.active {
+    display: block;
+}
+
+.tests.js .item {
+    padding: 40px 20px 80px 20px
+}
+
+.tests.js .item img {
+    height: 140px;
+}
+
+.tests.js .item .image-list {
+    text-align: center;
+}
+
+.tests.js .item .image-list img {
+    display: inline-block;
+    width: 80px;
+    height: auto;
+}
+
+.tests.css .item div {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.tests.css .item > div > img {
+    width: 100%;
+    height: auto;
+}
+
+.tests.css .item div + div {
+    background-color: #F1EFED
+}
+
+.square {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.circle {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px; 
+}
+
+.arc {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.triangle{
+    margin: auto;
+    width: 0px;
+    height: 10px;
+    background-color: transparent;
+    border-right: 40px solid transparent;
+    border-left: 40px transparent solid;
+    border-top: 40px transparent solid;
+    border-bottom: 40px #ccc solid;
+}
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./../assets/css/main.css">
+    <link rel="stylesheet" href="answers.css">
+    <script src="./../assets/js/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav" href="./../index.html" class="nav"><span>←</span> voltar</a>
+            <h1>JavaScript</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Instruções:</h2>
+            <ol>
+                <li>Faça este site inteiro aparecer no IE11 da mesma forma que aparece no Chrome</li>
+                <li>Faça com que ao clicar nos botões abaixo, as respectivas ações aconteçam.</li>
+            </ol>
+
+            <nav>
+                <a href="#" class="nav prev"><span>←</span> Anterior</a>
+                <a href="#" class="nav next">Próximo <span>→</span></a>
+            </nav>
+        </section>
+
+        <div class="tests js">
+            <div class="item active">
+                <img src="./../assets/img/teste-js/beanbird.png" alt="Beanbird" id="penguim_rotacionar">
+
+                <div class="controls">
+                    <button id="btn_rotacionar">Rotacionar</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./../assets/img/teste-js/beanbird.png" alt="Beanbird" id="penguim_fade_in">
+
+                <div class="controls">
+                    <button id="btn_fade_in">Fade in</button>
+                </div>
+            </div>
+            <div class="item" id="item_modal">
+                <img src="./../assets/img/teste-js/beanbird.png" alt="Beanbird" id="penguim_modal">
+
+                <div class="controls">
+                    <button id="btn_modal">Exibir modal (com esta imagem dentro)</button>
+                </div>
+
+
+            </div>
+            <div class="modal" id="modal-penguim">
+                <div class="modal-head">
+                    <div>
+                        <h3>Minha modal</h3>
+                    </div>
+                </div>
+                <div class="modal-content" id="content-modal">
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_modal_close">fechar</button>
+                </div>
+            </div>
+            <div class="item" id="remove_peguim">
+                <img src="./../assets/img/teste-js/beanbird.png" alt="Beanbird" id="peguim_img_remove" >
+
+                <div class="controls">
+                    <button id="btn_remove">Remover a imagem</button>
+                </div>
+            </div>
+            <div class="item">
+                <div  id="trade_by_text">
+                    <img src="./../assets/img/teste-js/beanbird.png" alt="Beanbird">
+                </div>    
+                <div class="controls">
+                    <button id="btn_change">Trocar a imagem por algum texto</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./../assets/img/teste-js/beanbird.png" alt="Beanbird">
+
+                <div class="controls">
+                    <button id='btn_alert'>Mostrar um alert, mas apenas no IE11</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-list">
+                    <img src="./../assets/img/teste-js/layout-1.jpg" alt="Imagem 1" class="img_rotate">
+                    <img src="./../assets/img/teste-js/layout-2.jpg" alt="Imagem 2" class="img_rotate">
+                    <img src="./../assets/img/teste-js/layout-3.jpg" alt="Imagem 3" class="img_rotate">
+                    <img src="./../assets/img/teste-js/layout-4.jpg" alt="Imagem 4" class="img_rotate">
+                    <img src="./../assets/img/teste-js/layout-5.jpg" alt="Imagem 5" class="img_rotate">
+                </div>
+                
+                <div class="controls">
+                    <button id='btn_rotate_list'>Rotacionar a lista de imagens</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="square" id="change_form"></div>
+                
+                <div class="controls">
+                    <button id="btn_trade_color_transform">Mudar a cor do quadrado de forma randômica</button>
+                </div>
+            </div>
+            <div class="item">
+                <form action="./../teste-js/index.html" method="GET">
+                    <input name="nome" type="text" placeholder="Nome" id="input_name" />
+                    <input name="sobrenome" type="text" placeholder="Sobrenome"  id="input_last_name"/>
+
+                    <select name="opcao" id="select_option">
+                        <option value="">Selecione uma opção</option>
+                        <option value="CSS">CSS</option>
+                        <option value="JavaScript">JavaScript</option>
+                    </select>
+                    
+                    <div class="controls">
+                        <button type="submit" id='btn_submit'>Evitar o envio do formulário</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+    <script type="text/javascript" src="answers.js"></script>
+</html>

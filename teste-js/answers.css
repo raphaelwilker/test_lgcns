@@ -1,0 +1,30 @@
+.modal{
+	display: none;
+    background-color: #fff;
+    max-height: 500px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 600px;
+}
+
+.modal-head{
+	height: 100px;
+	background-color: coral;
+	color: #fff;
+}
+
+
+ .modal-head div h3{
+ 	margin-left: 20px;
+ }
+
+.modal-content{
+	height: 300px;
+	background-color: #fff;
+}
+
+.modal-footer{
+	height: 100px;
+	background-color: coral;
+}
